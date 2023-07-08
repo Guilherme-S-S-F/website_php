@@ -19,8 +19,8 @@ body {
     /*color: var(--site-color);*/
 }
 .max-width {
-    max-width: 1300px;
-    padding: 0 10px;
+    max-width: auto;
+    padding: 0 30px;
     margin: auto;
 }
 .navbar .logo a {
@@ -157,6 +157,7 @@ section {
 }
 .services .serv-content .card {
     width: calc(33% - 20px);
+    height: 300px;
     background: var(--first-color);
     text-align: center;
     border-radius: 6px;
