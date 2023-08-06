@@ -53,6 +53,13 @@ body {
     font-weight: 400;
     margin-left: 25px;
 }
+.menu li a {
+    color: var(--site-color);
+    transition: color 0.3s ease;
+}
+.menu li a:hover {
+    color: var(--active-color);
+}
 .menu-btn {
     color: var(--site-color);
     font-size: 23px;
